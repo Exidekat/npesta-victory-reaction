@@ -10,5 +10,10 @@
 	"name": "haydongay",
 	"version": "v1.0.0",
 	"developer": "Matthew",
-	"description": "shows that haydon is gay"
+	"description": "shows that haydon is gay",
+	"resources": {
+		"sprites": [
+			"resources/*"
+		]
+	}
 }

@@ -1,3 +1,3 @@
-# Template Mod
+# Haydon GAY
 
-Edit about.md to change this
+The goal of this mod is to show that Haydon is gay.
