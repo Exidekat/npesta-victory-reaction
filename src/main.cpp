@@ -3,6 +3,7 @@
  */
 #include <Geode/Geode.hpp>
 #include <Geode/cocos/actions/CCActionInterval.h>
+#include <Geode/binding/FMODAudioEngine.hpp>
 
 /**
  * Brings cocos2d and all Geode namespaces to the current scope.
@@ -62,6 +63,11 @@ class $modify(PlayLayer) {
 		 
 		auto logo = CCSprite::create("npngesta.png"_spr);
 		logo->setPosition(winSize/2);
+
+		FMODAudioEngine* audioEngine = FMODAudioEngine::sharedEngine();
+		audioEngine->playEffect("kenosnoise.ogg"_spr);
+
+		log::debug("kenosnoise.ogg"_spr);
 
 		auto progressBar = this->getChildByID("progress-bar");
 

@@ -13,7 +13,10 @@
 	"description": "shows that haydon is gay",
 	"resources": {
 		"sprites": [
-			"resources/*"
+			"resources/*.png"
+		],
+		"files": [
+			"resources/audio/kenosnoise.ogg"
 		]
 	}
 }
